@@ -19,6 +19,7 @@
 		F6AF3A67194069A000CA975B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6AF3A4F194069A000CA975B /* UIKit.framework */; };
 		F6AF3A6F194069A100CA975B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F6AF3A6D194069A100CA975B /* InfoPlist.strings */; };
 		F6AF3A71194069A100CA975B /* ExampleProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F6AF3A70194069A100CA975B /* ExampleProjectTests.m */; };
+		F6AF3A7C194069DE00CA975B /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6AF3A7B194069DE00CA975B /* MainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		F6AF3A6C194069A100CA975B /* ExampleProjectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ExampleProjectTests-Info.plist"; sourceTree = "<group>"; };
 		F6AF3A6E194069A100CA975B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F6AF3A70194069A100CA975B /* ExampleProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleProjectTests.m; sourceTree = "<group>"; };
+		F6AF3A7A194069DE00CA975B /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		F6AF3A7B194069DE00CA975B /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +114,8 @@
 				F6AF3A5B194069A000CA975B /* AppDelegate.m */,
 				F6AF3A5D194069A000CA975B /* Images.xcassets */,
 				F6AF3A52194069A000CA975B /* Supporting Files */,
+				F6AF3A7A194069DE00CA975B /* MainViewController.h */,
+				F6AF3A7B194069DE00CA975B /* MainViewController.m */,
 			);
 			path = ExampleProject;
 			sourceTree = "<group>";
@@ -240,6 +245,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6AF3A5C194069A000CA975B /* AppDelegate.m in Sources */,
+				F6AF3A7C194069DE00CA975B /* MainViewController.m in Sources */,
 				F6AF3A58194069A000CA975B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
