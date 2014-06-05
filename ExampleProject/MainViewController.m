@@ -11,6 +11,7 @@
 @interface MainViewController ()
 
 @property (nonatomic, strong)UILabel* lblTitle;
+@property (nonatomic, strong)UILabel* lblTitle2;
 
 @end
 
@@ -37,6 +38,7 @@
 - (void)addAllViews
 {
     [self.view addSubview:self.lblTitle];
+    [self.view addSubview:self.lblTitle2];
 }
 
 - (void)didReceiveMemoryWarning
@@ -60,6 +62,21 @@
         _lblTitle.autoresizingMask = UIViewAutoresizingFlexibleWidth;
     }
     return _lblTitle;
+}
+
+- (UILabel *)lblTitle2
+{
+    if (!_lblTitle2) {
+        //_lblWeek = [[UILabel alloc]initWithFrame: self.panelSelectWeek.bounds];
+        _lblTitle2 = [[UILabel alloc]initWithFrame: CGRectMake(0, 120, self.view.frame.size.width, 50)];
+        _lblTitle2.textAlignment = NSTextAlignmentCenter;
+        //_lblWeek.backgroundColor = [Utils colorYellow];
+        _lblTitle2.textColor = [UIColor whiteColor];
+        _lblTitle2.text = @"Change 2";
+        //_lblWeek.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
+        _lblTitle2.autoresizingMask = UIViewAutoresizingFlexibleWidth;
+    }
+    return _lblTitle2;
 }
 
 /*
