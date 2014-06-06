@@ -37,6 +37,8 @@
 - (void)addAllViews
 {
     [self.view addSubview:self.lblTitle];
+    
+    NSLog(@"== %@", self.lblTitle.text);
 }
 
 - (void)didReceiveMemoryWarning
@@ -55,7 +57,7 @@
         _lblTitle.textAlignment = NSTextAlignmentCenter;
         //_lblWeek.backgroundColor = [Utils colorYellow];
         _lblTitle.textColor = [UIColor whiteColor];
-        _lblTitle.text = @"Main Branch";
+        _lblTitle.text = @"Main Branch change 1";
         //_lblWeek.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
         _lblTitle.autoresizingMask = UIViewAutoresizingFlexibleWidth;
     }
