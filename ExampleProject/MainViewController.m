@@ -38,6 +38,7 @@
 - (void)addAllViews
 {
     [self.view addSubview:self.lblTitle];
+    [self.view addSubview:self.lblTitle2];
     
     NSLog(@"== %@", self.lblTitle.text);
 }
