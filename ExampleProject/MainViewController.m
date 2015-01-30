@@ -12,6 +12,7 @@
 
 @property (nonatomic, strong)UILabel* lblTitle;
 @property (nonatomic, strong)UILabel* lblTitle2;
+@property (nonatomic, strong)UILabel* lblTitle3;
 
 @end
 
@@ -39,6 +40,7 @@
 {
     [self.view addSubview:self.lblTitle];
     [self.view addSubview:self.lblTitle2];
+    [self.view addSubview:self.lblTitle3];
     
     NSLog(@"== %@", self.lblTitle.text);
 }
@@ -79,6 +81,19 @@
         _lblTitle2.autoresizingMask = UIViewAutoresizingFlexibleWidth;
     }
     return _lblTitle2;
+}
+
+- (UILabel *)lblTitle3
+{
+    if (!_lblTitle3) {
+        _lblTitle3 = [[UILabel alloc]initWithFrame: CGRectMake(0, self.lblTitle2.frame.origin.y + self.lblTitle2.frame.size.height + 5, self.view.frame.size.width, 50)];
+        _lblTitle3.textAlignment = NSTextAlignmentCenter;
+        _lblTitle3.backgroundColor = [UIColor redColor];
+        _lblTitle3.textColor = [UIColor whiteColor];
+        _lblTitle3.text = @"New branch 1";
+        _lblTitle3.autoresizingMask = UIViewAutoresizingFlexibleWidth;
+    }
+    return _lblTitle3;
 }
 
 /*
