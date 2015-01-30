@@ -61,7 +61,7 @@
         _lblTitle.textAlignment = NSTextAlignmentCenter;
         //_lblWeek.backgroundColor = [Utils colorYellow];
         _lblTitle.textColor = [UIColor whiteColor];
-        _lblTitle.text = @"Main Branch change 1";
+        _lblTitle.text = @"Main Branch change 2";
         //_lblWeek.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
         _lblTitle.autoresizingMask = UIViewAutoresizingFlexibleWidth;
     }
