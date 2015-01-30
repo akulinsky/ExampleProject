@@ -90,7 +90,7 @@
         _lblTitle3.textAlignment = NSTextAlignmentCenter;
         _lblTitle3.backgroundColor = [UIColor redColor];
         _lblTitle3.textColor = [UIColor whiteColor];
-        _lblTitle3.text = @"New branch 1";
+        _lblTitle3.text = @"branch master";
         _lblTitle3.autoresizingMask = UIViewAutoresizingFlexibleWidth;
     }
     return _lblTitle3;
